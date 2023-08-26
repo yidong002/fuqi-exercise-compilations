@@ -31,3 +31,9 @@ fuqi 前端学习资料、作业布置仓库
   3/10 flex-basis
   3/11 flex
   3/12 align-self
+
+  ## git 基础命令
+  1. git pull
+  2. git add .
+  3. git commit -m "message"
+  4. git push
