@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>定位</title>
+</head>
+<style>
+  .container {
+    height: calc(100vh - 200px);
+    width: 500px;
+    border: 1px solid goldenrod;
+    margin: auto;
+    overflow-y: auto;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid goldenrod;
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  li {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+  }
+  .item-a {
+    position: absolute;
+    background-color: rosybrown;
+    top: 0;
+    left: 0;
+  }
+  .item-s {
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+  }
+  .item-f {
+    position: fixed;
+    top: 0;
+    right: 100px;
+    background-color: yellow;
+  }
+</style>
+<body>
+  <div class="container">
+    <ul>
+      <li class="item-a"></li>
+      <li></li>
+      <li class="item-s">11111</li>
+      <li class="item-f"></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>定位</title>
+</head>
+<style>
+  .container {
+    min-height: 700px;
+    border: 1px solid goldenrod;
+    margin: auto;
+    overflow-y: auto;
+  }
+  ul {
+    list-style: none;
+    height: 700px;
+    width: 100%;
+  }
+  li {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #333;
+    margin: 10px;
+  }
+</style>
+<body>
+  <!-- 使用弹性盒子flex -->
+  <div class="container">
+    <!-- 定位练习:定位在父级的右下角 100px处 可以被滚动覆盖：绝对定位-->
+    <button class="a-button">点击</button>
+    <!-- 定位练习:定位在父级的右下角 200px处 不可以被滚动覆盖：悬浮定位-->
+    <button class="a-button">点击</button>
+    <!-- 定位练习:定位在父级的右下角 300px处 可以被滚动覆盖：绝对定位-->
+    <button class="a-button">点击</button>
+    <!-- 定位练习:定位在父级的右下角 400px处 不可以被滚动覆盖：悬浮定位-->
+    <button class="a-button">点击</button>
+    <!-- 水平排列 -->
+    <!-- 
+      水平居中
+     -->
+    <ul>
+      <li>222</li>
+      <li>2222</li>
+    </ul>
+    <!-- 垂直居中 -->
+    <ul>
+      <li></li>
+      <li></li>
+    </ul>
+    <!-- 水平垂直居中 -->
+    <ul>
+      <li></li>
+      <li></li>
+    </ul>
+    <!-- 垂直排列 -->
+    <!-- 
+      水平居中
+     -->
+     <ul>
+      <li>222</li>
+      <li>2222</li>
+    </ul>
+    <!-- 垂直居中 -->
+    <ul>
+      <li></li>
+      <li></li>
+    </ul>
+    <!-- 水平垂直居中 -->
+    <ul>
+      <li></li>
+      <li></li>
+    </ul>
+    <!-- 水平靠右、垂直方向考下排列 -->
+    <ul>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</body>
+</html>
